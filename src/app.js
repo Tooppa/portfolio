@@ -15,7 +15,7 @@ const App = () => {
         <div className="app">
             <Menu />
             <AnimatePresence exitBeforeEnter>
-                <Switch location={location}>
+                <Switch location={location} key={location.pathname}>
                     <Route path="/about">
                         <About />
                     </Route>

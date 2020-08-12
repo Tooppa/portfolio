@@ -8,11 +8,12 @@ export const dropDown = {
         y: 0,
         opacity: 1,
         transition: {
-            duration: 0.6,
+            duration: 0.5,
             ease: easing
         }
     },
     exit:{
+        y: "-200%",
         opacity:0
     }
 }
