@@ -4,6 +4,7 @@
     padding-right: 20px;
     border-bottom: 1px solid rgb(124, 124, 124);
     background: white;
+    z-index: 1;
 }
 .links{
     color: cadetblue;
