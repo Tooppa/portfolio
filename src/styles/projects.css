@@ -1,0 +1,19 @@
+.projects{
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background: rgb(168, 154, 136);
+}
+.projects:after{
+    position: absolute;
+    background: inherit;
+    height: 150px;
+    z-index: -1;
+    content: '';
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    transform-origin: top left;
+    transform: skewY(4deg);
+}

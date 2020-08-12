@@ -1,0 +1,67 @@
+.container{
+    padding-top: 150px;
+}
+.welcome{
+    font-size: 4em;
+}
+.text{
+    font-size: 2em;
+    padding-top: 70px;
+}
+.slanted{
+    background: rgb(168, 154, 136);
+    box-sizing: border-box;
+}
+.slanted:after{
+    position: absolute;
+    background: inherit;
+    height: 600px;
+    z-index: -1;
+    content: '';
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    transform-origin: top left;
+    transform: skewY(4deg);
+}
+.text, .welcome, .container, .homeimg, .slanted:after{
+    transition: 0.1s ease-in-out;
+}
+.homeimg{
+    border: 3px solid rgb(0, 0, 0);
+}
+@media only screen and (max-width: 992px){
+    .container{
+        padding-top: 100px;
+    }
+    .welcome{
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 764px){
+    .welcome{
+        font-size: 2.8em;
+    }
+    .container{
+        padding-top: 60px;
+    }
+    .text{
+        font-size: 1.6em;
+    }
+}
+@media only screen and (max-width: 460px){
+    .text{
+        font-size: 0.9em;
+        padding-top: 20px;
+    }
+    .welcome{
+        font-size: 1.9em;
+    }
+    .container{
+        padding-top: 30px;
+    }
+    .slanted:after{
+        height: 430px;
+    }
+}

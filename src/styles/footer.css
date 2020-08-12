@@ -1,0 +1,7 @@
+.name{
+    text-align: right;
+    padding: 10px;
+    padding-top: 230px;
+    font-size: small;
+    transition: 0.1s ease-in-out;
+}

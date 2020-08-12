@@ -1,0 +1,18 @@
+.navbar{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid rgb(124, 124, 124);
+    background: white;
+}
+.links{
+    color: cadetblue;
+}
+.links:hover{
+    text-decoration: none;
+}
+@media only screen and (max-width: 280px){
+    .navbar{
+        padding: 10px;
+    }
+}
