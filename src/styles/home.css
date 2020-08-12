@@ -4,7 +4,7 @@
 .welcome{
     font-size: 4em;
 }
-.text{
+.textHome{
     font-size: 2em;
     padding-top: 70px;
 }
@@ -25,7 +25,7 @@
     transform-origin: top left;
     transform: skewY(4deg);
 }
-.text, .welcome, .container, .homeimg, .slanted:after{
+.textHome, .welcome, .container, .homeimg, .slanted:after{
     transition: 0.1s ease-in-out;
 }
 .homeimg{
@@ -46,12 +46,12 @@
     .container{
         padding-top: 60px;
     }
-    .text{
+    .textHome{
         font-size: 1.6em;
     }
 }
 @media only screen and (max-width: 460px){
-    .text{
+    .textHome{
         font-size: 0.9em;
         padding-top: 20px;
     }

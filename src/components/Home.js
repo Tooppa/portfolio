@@ -10,6 +10,7 @@ const Home = () => {
             exit={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             initial={{opacity: 0 }}
+            transition={{ scale: 1.2, ease:"anticipate"}}
             className="slanted"
             >
             <Container className='container' fluid>
@@ -28,7 +29,7 @@ const Home = () => {
                         />
                     </Col>
                 </Row>
-                <p className='text'>
+                <p className='textHome'>
                     Hi, thank you for coming to my website. My name is Tomas Valkendorff
                     and i am a student at Metropolia university of applied sciences.
                 </p>
