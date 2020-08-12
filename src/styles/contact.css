@@ -1,19 +1,49 @@
 .contact{
     text-align: center;
     padding-top: 30px;
-    box-sizing: border-box;
     background: rgb(168, 154, 136);
 }
+.contactTitle{
+    font-size: 4em;
+}
+.textContact{
+    font-size: 2em;
+    padding-top: 70px;
+}
 .contact:after{
-    position: absolute;
+    display: inherit;
     background: inherit;
     height: 150px;
     z-index: -1;
     content: '';
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
     transform-origin: top left;
     transform: skewY(4deg);
+}
+@media only screen and (max-width: 992px){
+    .contactTitle{
+        font-size: 3em;
+    }
+    .contact:after{
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 764px){
+    .contactTitle{
+        font-size: 2.8em;
+    }
+    .textContact{
+        font-size: 1.6em;
+    }
+}
+@media only screen and (max-width: 460px){
+    .textContact{
+        font-size: 0.9em;
+        padding-top: 20px;
+    }
+    .contactTitle{
+        font-size: 1.9em;
+    }
+    .contact:after{
+        height: 50px;
+    }
 }

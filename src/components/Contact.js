@@ -12,7 +12,10 @@ const Contact = () => {
             initial={{ opacity: 0 }}
             transition={{ scale: 1.2, ease:"anticipate"}}
         >
-            <h1 className="contact">Contact</h1>
+            <div className="contact">
+                <h1 className="contactTitle">Contact</h1>
+                <div className='textContact'>Use this to contact me via Email.</div>
+            </div>
             <Container>
                 <Form>
                     <Row>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import { Container, Row } from 'react-bootstrap'
 import '../styles/projects.css'
 
 
@@ -12,14 +11,10 @@ const Projects = () => {
             initial={{ opacity: 0 }}
             transition={{ scale: 1.2, ease: "anticipate" }}
         >
-            <h1 className="projects">Projects</h1>
-            <Container>
-                <Row className="justify-content-center">
-                    <p className='textProjects'>
-                        My project page
-                    </p>
-                </Row>
-            </Container>
+            <div className="projects">
+                <h1 className="projectsTitle">Projects</h1>
+                <div className='textProjects'>My project page</div>
+            </div>
         </motion.div>
     )
 }
