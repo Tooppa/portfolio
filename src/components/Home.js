@@ -2,17 +2,18 @@ import React from 'react'
 //import SlideShow from './SlideShow'
 import { motion } from "framer-motion"
 import { Container, Row, Col, Image } from 'react-bootstrap'
+import { dropDown } from '../animations/pageTransition'
 import '../styles/home.css'
 
 const Home = () => {
     return (
         <motion.div
-            exit={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            initial={{opacity: 0 }}
-            transition={{ scale: 1.2, ease:"anticipate"}}
+            exit="exit"
+            animate="animate"
+            initial="initial"
+            variants={dropDown}
             className="slanted"
-            >
+        >
             <Container className='container' fluid>
                 <Row className="justify-content-center">
                     <Col xs="auto">

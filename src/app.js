@@ -6,16 +6,16 @@ import Contact from './components/Contact'
 import Menu from './components/Menu'
 import Footer from './components/Footer'
 import { AnimatePresence } from "framer-motion"
+import { Switch, Route, useLocation } from "react-router-dom"
 import './styles/app.css'
 
-import { Switch, Route } from "react-router-dom"
-
 const App = () => {
+    const location = useLocation()
     return (
         <div className="app">
             <Menu />
-            <AnimatePresence>
-                <Switch>
+            <AnimatePresence exitBeforeEnter>
+                <Switch location={location}>
                     <Route path="/about">
                         <About />
                     </Route>
