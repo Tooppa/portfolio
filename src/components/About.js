@@ -12,7 +12,10 @@ const About = () => {
             initial="initial"
             variants={dropDown}
         >
-            <h1 className="about">About</h1>
+            <div className="about">
+                <h1 className="aboutTitle">About me</h1>
+                <div className='textAbout'>test</div>
+            </div>
         </motion.div>
     )
 }
