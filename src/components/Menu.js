@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 import { Navbar, Nav } from 'react-bootstrap'
 import { firstLoad, hover } from '../animations/navbar'
 import { motion } from 'framer-motion'
-import '../styles/menu.css'
 
 const Menu = () => {
     return (

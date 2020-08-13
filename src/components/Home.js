@@ -1,9 +1,7 @@
 import React from 'react'
-//import SlideShow from './SlideShow'
 import { motion } from "framer-motion"
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import { dropDown } from '../animations/pageTransition'
-import '../styles/home.css'
 
 const Home = () => {
     return (
@@ -35,7 +33,6 @@ const Home = () => {
                     and i am a student at Metropolia university of applied sciences.
                 </p>
             </Container>
-            {/*<SlideShow />*/}
         </motion.div>
     )
 }

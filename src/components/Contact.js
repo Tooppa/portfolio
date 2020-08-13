@@ -2,7 +2,6 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { Form, Button, Row, Col, Container } from 'react-bootstrap'
 import { dropDown } from '../animations/pageTransition'
-import '../styles/contact.css'
 
 const Contact = () => {
     return (

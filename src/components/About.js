@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { dropDown } from '../animations/pageTransition'
-import '../styles/about.css'
 
 
 const About = () => {

@@ -1,0 +1,20 @@
+$theme-colors: (
+    "primary":    blue,
+    "secondary":  indigo,
+    "success":    green,
+    "info":       brown,
+    "warning":    yellow,
+    "danger":     red,
+    "light":      white,
+    "dark":       black
+);
+$link-hover-color:                        theme-color("primary");
+$link-hover-decoration:                   none;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./about.css";
+@import "./contact.css";
+@import "./footer.css";
+@import "./home.css";
+@import "./menu.css";
+@import "./projects.css";

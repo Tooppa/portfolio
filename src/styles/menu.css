@@ -4,17 +4,12 @@
     background: white;
     z-index: 1;
 }
-.links{
-    color: cadetblue;
-    text-decoration: none;
-}
-.links:hover{
-    text-decoration: none;
-    color: cadetblue;
-}
 .navbar-nav{
     float: none;
     text-align: center;
+}
+.links{
+    padding: 15px
 }
 @media only screen and (max-width: 280px){
     .navbar{
