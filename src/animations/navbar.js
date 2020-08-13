@@ -13,3 +13,6 @@ export const firstLoad = {
         opacity:0
     }
 }
+export const hover = {
+    y: -3,
+}

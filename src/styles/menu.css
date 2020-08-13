@@ -1,13 +1,12 @@
 .navbar{
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px 10px 20px;
     border-bottom: 1px solid rgb(124, 124, 124);
     background: white;
     z-index: 1;
 }
 .links{
     color: cadetblue;
+    text-decoration: none;
 }
 .links:hover{
     text-decoration: none;

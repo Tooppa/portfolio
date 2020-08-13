@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import { Navbar, Nav } from 'react-bootstrap'
-import { firstLoad } from '../animations/navbar'
+import { firstLoad, hover } from '../animations/navbar'
 import { motion } from 'framer-motion'
 import '../styles/menu.css'
 
@@ -14,7 +14,7 @@ const Menu = () => {
                             animate="animate"
                             initial="initial"
                             variants={firstLoad}
-                            whileHover={{ scale: 1.1 }}>
+                            whileHover={hover}>
                 <Link to="/" className='links'>Tomas Valkendorff</Link>
                 </motion.div>
             </Navbar.Brand>
@@ -27,7 +27,7 @@ const Menu = () => {
                             animate="animate"
                             initial="initial"
                             variants={firstLoad}
-                            whileHover={{ scale: 1.1 }}>
+                            whileHover={hover}>
                             <Link to="/about" className='links'>About</Link>
                         </motion.div>
                     </Nav.Link>
@@ -37,7 +37,7 @@ const Menu = () => {
                             animate="animate"
                             initial="initial"
                             variants={firstLoad}
-                            whileHover={{ scale: 1.1 }}>
+                            whileHover={hover}>
                             <Link to="/projects" className='links'>Projects</Link>
                         </motion.div>
                     </Nav.Link>
@@ -47,7 +47,7 @@ const Menu = () => {
                             animate="animate"
                             initial="initial"
                             variants={firstLoad}
-                            whileHover={{ scale: 1.1 }}>
+                            whileHover={hover}>
                             <Link to="/contact" className='links'>Contact</Link>
                         </motion.div>
                     </Nav.Link>
