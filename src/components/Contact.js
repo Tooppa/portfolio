@@ -11,7 +11,7 @@ const Contact = () => {
             initial="initial"
             variants={dropDown}
         >
-            <div className="contact">
+            <div className="contact bg-backg">
                 <h1 className="contactTitle">Contact</h1>
                 <div className='textContact'>Use this to contact me via Email.</div>
             </div>

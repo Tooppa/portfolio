@@ -8,9 +8,6 @@
     font-size: 2em;
     padding-top: 70px;
 }
-.slanted{
-    background: rgb(168, 154, 136);
-}
 .slanted:after{
     display: inherit;
     background: inherit;

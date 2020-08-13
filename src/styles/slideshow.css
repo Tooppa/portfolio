@@ -1,9 +1,0 @@
-.slideshow{
-    padding-top: 0em;
-    border-bottom: 1px solid rgb(124, 124, 124);
-}
-@media only screen and (max-width: 600px){
-    .caption{
-        display: none;
-    }
-}

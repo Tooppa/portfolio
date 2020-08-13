@@ -11,7 +11,7 @@ const Projects = () => {
             animate="animate"
             initial="initial"
             variants={dropDown}
-            className="projects"
+            className="projects bg-backg"
         >
             <Container style={{padding:0}}>
                 <h1 className="projectsTitle">Projects</h1>

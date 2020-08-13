@@ -10,7 +10,7 @@ const Home = () => {
             animate="animate"
             initial="initial"
             variants={dropDown}
-            className="slanted"
+            className="slanted bg-backg"
         >
             <Container className='container'>
                 <Row className="justify-content-center">

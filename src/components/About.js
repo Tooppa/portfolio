@@ -11,7 +11,7 @@ const About = () => {
             initial="initial"
             variants={dropDown}
         >
-            <div className="about">
+            <div className="about bg-backg">
                 <h1 className="aboutTitle">About</h1>
                 <div className='textAbout'>test</div>
             </div>
