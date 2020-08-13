@@ -14,7 +14,7 @@ const Home = () => {
             variants={dropDown}
             className="slanted"
         >
-            <Container className='container' fluid>
+            <Container className='container'>
                 <Row className="justify-content-center">
                     <Col xs="auto">
                         <h1 className='welcome' >Welcome to my page</h1>

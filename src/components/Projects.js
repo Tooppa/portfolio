@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { dropDown } from '../animations/pageTransition'
 import '../styles/projects.css'
+import { Container } from 'react-bootstrap'
 
 
 const Projects = () => {
@@ -11,11 +12,16 @@ const Projects = () => {
             animate="animate"
             initial="initial"
             variants={dropDown}
+            className="projects"
         >
-            <div className="projects">
+            <Container style={{padding:0}}>
                 <h1 className="projectsTitle">Projects</h1>
-                <div className='textProjects'>My project page</div>
-            </div>
+                <div className='textProjects'>
+                    I would like to fill this page with projects, but since i just
+                    started my developer journey year ago i havent done many
+                    that is worthy of showing
+                    </div>
+            </Container>
         </motion.div>
     )
 }

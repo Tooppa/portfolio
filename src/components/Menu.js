@@ -1,25 +1,55 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import { Navbar, Nav } from 'react-bootstrap'
+import { firstLoad } from '../animations/navbar'
+import { motion } from 'framer-motion'
 import '../styles/menu.css'
 
 const Menu = () => {
     return (
         <Navbar collapseOnSelect expand="sm" variant="light" className='navbar'>
             <Navbar.Brand>
+                <motion.div
+                            exit="exit"
+                            animate="animate"
+                            initial="initial"
+                            variants={firstLoad}
+                            whileHover={{ scale: 1.1 }}>
                 <Link to="/" className='links'>Tomas Valkendorff</Link>
+                </motion.div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
                     <Nav.Link href="/about" as="span">
-                        <Link to="/about" className='links'>About</Link>
+                        <motion.div
+                            exit="exit"
+                            animate="animate"
+                            initial="initial"
+                            variants={firstLoad}
+                            whileHover={{ scale: 1.1 }}>
+                            <Link to="/about" className='links'>About</Link>
+                        </motion.div>
                     </Nav.Link>
                     <Nav.Link href="/projects" as="span">
-                        <Link to="/projects" className='links'>Projects</Link>
+                        <motion.div
+                            exit="exit"
+                            animate="animate"
+                            initial="initial"
+                            variants={firstLoad}
+                            whileHover={{ scale: 1.1 }}>
+                            <Link to="/projects" className='links'>Projects</Link>
+                        </motion.div>
                     </Nav.Link>
                     <Nav.Link href="/contact" as="span">
-                        <Link to="/contact" className='links'>Contact</Link>
+                        <motion.div
+                            exit="exit"
+                            animate="animate"
+                            initial="initial"
+                            variants={firstLoad}
+                            whileHover={{ scale: 1.1 }}>
+                            <Link to="/contact" className='links'>Contact</Link>
+                        </motion.div>
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>

@@ -33,9 +33,17 @@ const Contact = () => {
                                 <Form.Label>Name</Form.Label>
                                 <Form.Control type="text" placeholder="Name" />
                             </Form.Group>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Form.Group controlId="exampleForm.ControlTextarea1">
+                                <Form.Label>Message</Form.Label>
+                                <Form.Control as="textarea" rows="3" placeholder="Enter text"/>
+                            </Form.Group>
                             <Button variant="primary" type="submit">
                                 Submit
-                            </Button>
+                        </Button>
                         </Col>
                     </Row>
                 </Form>
