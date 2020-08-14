@@ -1,19 +1,24 @@
 import React from 'react'
 import { AnimatePresence, motion } from "framer-motion"
+import { underline } from "../animations/underline"
 
 
 const Underline = ({ show, pos }) => {
     return (
         <AnimatePresence exitBeforeEnter>
-            {(show === pos) && (
-                <motion.div
-                    animate={{ scale: 0.8 }}
-                    initial={{ scale: 0 }}
-                    exit={{ scale: 0 }}
-                    transition={{ duration: 1 }}
-                    key="modal"
-                    className="underline border-secondary" />
-            )}
+            <motion.div
+                animate="animate"
+                initial="initial"
+                exit="exit"
+                variants={underline}
+                key="parent">
+                {(show === pos) && (
+                    <motion.div
+                        variants={underline}
+                        key="modal"
+                        className="underline border-secondary" />
+                )}
+            </motion.div>
         </AnimatePresence>
     )
 }
