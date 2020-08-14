@@ -26,7 +26,15 @@ const Projects = () => {
                 <Jumbotron>
                     <h4>My portfolio site</h4>
                     <p>
-                        testestsdgfsdfsdfs
+                        After first year at my school i started University of Helsinki
+                        full stack course. Since compleating it i wanted to use my new found
+                        knowledge to build a site. I had many ideas but i didnt have place to
+                        showcase them. With that in mind own portfolio site seemed like
+                        a perfect first project, even tho i dont have much else to show.
+                    </p>
+                    <h5>Technologies i used</h5>
+                    <p>
+                        React, react-router-dom, react-bootstrap, sass, framer-motion
                     </p>
                 </Jumbotron>
             </Container>
