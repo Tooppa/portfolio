@@ -8,7 +8,7 @@ export const dropDown = {
         opacity: 1,
         transition: {
             duration: 0.7,
-            ease: "easeOut"
+            type: "tween"
         }
     },
     exit:{

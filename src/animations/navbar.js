@@ -1,4 +1,4 @@
-export const firstLoad = {
+export const navigation = {
     initial: {
         opacity: 0
     },
@@ -6,13 +6,13 @@ export const firstLoad = {
         opacity: 1,
         transition: {
             duration: 1,
-            ease: "easeOut"
+            type: "tween"
         }
     },
-    exit:{
-        opacity:0
+    exit: {
+        opacity: 0
+    },
+    hover:{
+        y: -4,
     }
-}
-export const hover = {
-    y: -3,
 }
