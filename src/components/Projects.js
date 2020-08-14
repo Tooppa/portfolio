@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { dropDown } from '../animations/pageTransition'
-import { Container } from 'react-bootstrap'
+import { Container, Jumbotron } from 'react-bootstrap'
 
 
 const Projects = () => {
@@ -11,15 +11,24 @@ const Projects = () => {
             animate="animate"
             initial="initial"
             variants={dropDown}
-            className="projects bg-backg"
         >
-            <Container style={{padding:0}}>
+            <div className="projects bg-backg">
+                <Container style={{padding:"0px"}}>
                 <h1 className="projectsTitle">Projects</h1>
-                <div className='textProjects'>
-                    I would like to fill this page with projects, but since i just
-                    started my developer journey year ago i havent done many
-                    that is worthy of showing
-                    </div>
+                <p className='textProjects'>
+                    This page is dedigated to my own projects. Since most of
+                    my work has been group projects at my university, those have been
+                    left out. This website has been my largest solo project to date.
+                </p>
+                </Container>
+            </div>
+            <Container>
+                <Jumbotron>
+                    <h4>My portfolio site</h4>
+                    <p>
+                        testestsdgfsdfsdfs
+                    </p>
+                </Jumbotron>
             </Container>
         </motion.div>
     )

@@ -10037,5 +10037,8 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.example::-webkit-scrollbar {
+  display: none;
+}
 
 /*# sourceMappingURL=main.css.map */
