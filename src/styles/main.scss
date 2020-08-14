@@ -13,10 +13,4 @@ $link-hover-color:                        theme-color("primary");
 $link-hover-decoration:                   none;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "./about.css";
-@import "./contact.css";
-@import "./footer.css";
-@import "./home.css";
-@import "./menu.css";
-@import "./projects.css";
-@import "./underline.css";
+@import "./app.css";

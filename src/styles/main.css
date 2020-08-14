@@ -5,13 +5,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import "./about.css";
-@import "./contact.css";
-@import "./footer.css";
-@import "./home.css";
-@import "./menu.css";
-@import "./projects.css";
-@import "./underline.css";
+@import "./app.css";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10036,9 +10030,6 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
-}
-.example::-webkit-scrollbar {
-  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
