@@ -18,15 +18,18 @@ const Menu = () => {
                     variants={navigation}
                     whileHover="hover"
                     onMouseEnter={() => setHover('brand')}
-                    onMouseLeave={() => setHover('')}>
-                    <Link to="/" className='links text-light'>Tomas Valkendorff</Link>
-                    <Underline show={buttonHover} pos={'brand'} />
+                    onMouseLeave={() => setHover('')}
+                    className='links'>
+                    <Link to="/" className='text-light'>
+                        Tomas Valkendorff
+                        <Underline show={buttonHover} pos={'brand'} />
+                    </Link>
                 </motion.div>
             </Nav.Link>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Item as="span">
+                    <Nav.Link href="/about" as="span">
                         <motion.div
                             exit="exit"
                             animate="animate"
@@ -34,12 +37,15 @@ const Menu = () => {
                             variants={navigation}
                             whileHover="hover"
                             onMouseEnter={() => setHover('about')}
-                            onMouseLeave={() => setHover('')}>
-                            <Link to="/about" className='links text-light'>About</Link>
-                            <Underline show={buttonHover} pos={'about'} />
+                            onMouseLeave={() => setHover('')}
+                            className='links'>
+                            <Link to="/about" className='text-light'>
+                                About
+                                <Underline show={buttonHover} pos={'about'} />
+                            </Link>
                         </motion.div>
-                    </Nav.Item>
-                    <Nav.Item as="span">
+                    </Nav.Link>
+                    <Nav.Link href="/projects" as="span">
                         <motion.div
                             exit="exit"
                             animate="animate"
@@ -47,12 +53,15 @@ const Menu = () => {
                             variants={navigation}
                             whileHover="hover"
                             onMouseEnter={() => setHover('project')}
-                            onMouseLeave={() => setHover('')}>
-                            <Link to="/projects" className='links text-light'>Projects</Link>
-                            <Underline show={buttonHover} pos={'project'} />
+                            onMouseLeave={() => setHover('')}
+                            className='links'>
+                            <Link to="/projects" className='text-light'>
+                                Projects
+                                <Underline show={buttonHover} pos={'project'} />
+                            </Link>
                         </motion.div>
-                    </Nav.Item>
-                    <Nav.Item as="span">
+                    </Nav.Link>
+                    <Nav.Link href="/contact" as="span">
                         <motion.div
                             exit="exit"
                             animate="animate"
@@ -60,11 +69,14 @@ const Menu = () => {
                             variants={navigation}
                             whileHover="hover"
                             onMouseEnter={() => setHover('contact')}
-                            onMouseLeave={() => setHover('')}>
-                            <Link to="/contact" className='links text-light'>Contact</Link>
-                            <Underline show={buttonHover} pos={'contact'} />
+                            onMouseLeave={() => setHover('')}
+                            className='links'>
+                            <Link to="/contact" className='text-light'>
+                                Contact
+                                <Underline show={buttonHover} pos={'contact'} />
+                            </Link>
                         </motion.div>
-                    </Nav.Item>
+                    </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
