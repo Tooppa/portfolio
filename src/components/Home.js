@@ -10,9 +10,9 @@ const Home = () => {
             animate="animate"
             initial="initial"
             variants={dropDown}
-            className="slanted bg-backg"
+            className="slanted bg-secondary"
         >
-            <Container className='container'>
+            <Container>
                 <Row className="justify-content-center">
                     <Col xs="auto">
                         <h1 className='welcome' >Welcome to my page</h1>
@@ -24,7 +24,7 @@ const Home = () => {
                             src="../img/profile.png"
                             alt="Generic placeholder"
                             roundedCircle
-                            className="homeimg"
+                            className="homeimg border-primary"
                         />
                     </Col>
                 </Row>

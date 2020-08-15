@@ -9,8 +9,8 @@ const Menu = () => {
     const [buttonHover, setHover] = useState('')
 
     return (
-        <Navbar collapseOnSelect expand="sm" variant="light">
-            <Navbar.Brand>
+        <Navbar collapseOnSelect expand="sm" bg="light">
+            <Nav.Link href="/" as="span" className="brand">
                 <motion.div
                     exit="exit"
                     animate="animate"
@@ -22,7 +22,7 @@ const Menu = () => {
                     <Link to="/" className='links'>Tomas Valkendorff</Link>
                     <Underline show={buttonHover} pos={'brand'}/>
                 </motion.div>
-            </Navbar.Brand>
+            </Nav.Link>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">

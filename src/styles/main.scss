@@ -1,16 +1,17 @@
+$primary: #1A1F23;
+$secondary: #7490AA;
+$info: #C6D7DD;
+$light: #F5F5F5;
+
 $theme-colors: (
-    "backg": rgb(168, 154, 136),
-    "primary":    blue,
-    "secondary":  indigo,
-    "success":    green,
-    "info":       brown,
-    "warning":    yellow,
-    "danger":     red,
-    "light":      white,
-    "dark":       black
+    "primary": $primary,
+    "secondary": $secondary,
+    "info": $info,
+    "light": $light,
 );
-$link-hover-color:                        theme-color("primary");
-$link-hover-decoration:                   none;
+$body-bg: $light;
+$link-hover-color: $primary;
+$link-hover-decoration: none;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "./app.css";

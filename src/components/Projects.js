@@ -12,7 +12,7 @@ const Projects = () => {
             initial="initial"
             variants={dropDown}
         >
-            <div className="projects bg-backg">
+            <div className="projects bg-secondary">
                 <Container style={{padding:"0px"}}>
                 <h1 className="projectsTitle">Projects</h1>
                 <p className='textProjects'>
@@ -23,7 +23,7 @@ const Projects = () => {
                 </Container>
             </div>
             <Container>
-                <Jumbotron>
+                <Jumbotron className="bg-info">
                     <h4>My portfolio site</h4>
                     <p>
                         After first year at my school i started University of Helsinki

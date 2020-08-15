@@ -16,7 +16,7 @@ const Underline = ({ show, pos }) => {
                     <motion.div
                         variants={underline}
                         key="modal"
-                        className="underline border-secondary" />
+                        className="underline border-secondary"/>
                 )}
             </motion.div>
         </AnimatePresence>
