@@ -1,16 +1,28 @@
+/* first version*/
+
 $primary: #1A1F23;
 $secondary: #819AB1;
 $info: #E7EBEE;
 $light: #F5F5F5;
+$dark: #1A1F23;
 
+/*second version
+
+$primary: #001427;
+$secondary: #BF0603;
+$info: #708D81;
+$light: #FDFFFC;
+$dark: #8D0801;
+*/
 $theme-colors: (
     "primary": $primary,
     "secondary": $secondary,
     "info": $info,
     "light": $light,
+    "dark": $dark
 );
 $body-bg: $light;
-$link-hover-color: $primary;
+$link-hover-color: $light;
 $link-hover-decoration: none;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
