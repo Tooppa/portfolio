@@ -16,7 +16,7 @@ const Projects = () => {
                 <Container style={{padding:"0px"}}>
                 <h1 className="projectsTitle">Projects</h1>
                 <p className='textProjects'>
-                    This page is dedigated to my own projects. Since most of
+                    This page is dedicated to my own projects. Since most of
                     my work has been group projects at my university, those have been
                     left out. This website has been my largest solo project to date.
                 </p>
@@ -35,6 +35,10 @@ const Projects = () => {
                     <h5>Technologies i used</h5>
                     <p>
                         React, react-router-dom, react-bootstrap, sass, framer-motion
+                    </p>
+                    <h5>How i made it</h5>
+                    <p>
+                        
                     </p>
                 </Jumbotron>
             </Container>

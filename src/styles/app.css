@@ -84,7 +84,7 @@
 }
 .links{
     padding: 5px;
-    display: flex;
+    display: grid;
 }
 .brand{
     font-size: 1.3em;
