@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 import Underline from './Underline'
 
 const Menu = () => {
-    const [buttonHover, setHover] = useState('')
+    //const [buttonHover, setHover] = useState('')
     return (
         <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
             <Nav.Link href="/" as="span" className="brand">
