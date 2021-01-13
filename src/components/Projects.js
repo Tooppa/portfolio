@@ -30,13 +30,29 @@ const Projects = () => {
                         full stack course. Since compleating it i wanted to use my new found
                         knowledge to build a site. I had many ideas but i didnt have place to
                         showcase them. With that in mind own portfolio site seemed like
-                        a perfect first project, even tho i dont have much else to show.
+                        a perfect first project.
                     </p>
                     <h5>Technologies i used</h5>
                     <p>
                         React, react-router-dom, react-bootstrap, sass, framer-motion
                     </p>
-                    <h5>How i made it</h5>
+                    <h5>How it works</h5>
+                    <p>
+                        
+                    </p>
+                </Jumbotron>
+                <Jumbotron className="bg-info">
+                    <h4>3D Bomberman in unity</h4>
+                    <p>
+                        After many unity group projects at my school we got a solo assignment to 
+                        copy mechanics from a old game and remake it in unity. I chose Bomberman since its a well known
+                        concept and i had many ideas to make it look my own.
+                    </p>
+                    <h5>Technologies i used</h5>
+                    <p>
+                        C# and unity.
+                    </p>
+                    <h5>How it works</h5>
                     <p>
                         
                     </p>

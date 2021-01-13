@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
             <p className="name">
-                Tomas Alexander Valkendorff 2020
+                Tomas Alexander Valkendorff 2021
             </p>
         </div>
     )

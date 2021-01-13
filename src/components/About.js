@@ -14,10 +14,11 @@ const About = () => {
         >
             <div className="about bg-secondary">
                 <h1 className="aboutTitle">About me</h1>
+                <p className='textContact'>Here you can learn more about me and what skills i have.</p>
             </div>
             <Container>
                 <Jumbotron className="bg-info">
-                    <h4>About me</h4>
+                    <h4>Education</h4>
                     <p>
                         testestsdgfsdfsdfs
                     </p>
