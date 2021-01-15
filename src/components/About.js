@@ -19,26 +19,26 @@ const About = () => {
             <Container>
                 <Jumbotron className="bg-info">
                     <h4>Education</h4>
-                    <h6>Metropolia University of Applied Sciences 2019-2023</h6>
+                    <h5>Metropolia University of Applied Sciences 2019-2023</h5>
                     <p>
                         Information and Communication Technology, mastering in Game Applications.
                     </p>
-                    <h6>Open University in University of Helsinki 2020</h6>
+                    <h5>Open University in University of Helsinki 2020</h5>
                     <p>
                         Full Stack open.
                     </p>
                 </Jumbotron>
                 <Jumbotron className="bg-info">
                     <h4>Skills</h4>
-                    <h6>Web Development</h6>
+                    <h5>Web Development</h5>
                     <p>
                         I have mostly used Javascript with react in the front end and Node.js and MongoDB in the backend.
                     </p>
-                    <h6>Game Development</h6>
+                    <h5>Game Development</h5>
                     <p>
                         For all my games i have used unity and c#. For vector calculations i have used python and mathlab.
                     </p>
-                    <h6>Other</h6>
+                    <h5>Other</h5>
                     <p>
                         In the first year i had a brief introduction to C language when programming a simple robot.
                         This year i have started learning c++.
