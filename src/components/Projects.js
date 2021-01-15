@@ -45,8 +45,8 @@ const Projects = () => {
                     <h4>3D Bomberman in unity</h4>
                     <p>
                         After many unity group projects at my school we got a solo assignment to 
-                        copy mechanics from a old game and remake it in unity. I chose Bomberman since its a well known
-                        concept and i had many ideas to make it look my own.
+                        copy mechanics from a old game and remake it in unity. I chose Bomberman since its a simple
+                        concept that can be extended easily.
                     </p>
                     <h5>Technologies i used</h5>
                     <p>

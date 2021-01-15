@@ -13,6 +13,6 @@ export const navigation = {
         opacity: 0
     },
     hover:{
-        y: -4,
+        y: -2,
     }
 }
