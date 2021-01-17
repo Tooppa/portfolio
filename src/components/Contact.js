@@ -37,6 +37,15 @@ const Contact = () => {
                                     className="logo"
                                 />
                             </Link>
+                            <Link to="/github" className='text-light'>
+                                <Image
+                                    width={125}
+                                    height={125}
+                                    src="../img/gitHub.png"
+                                    alt="Generic placeholder"
+                                    className="logo"
+                                />
+                            </Link>
                         </Col>
                     </Row>
 

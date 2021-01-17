@@ -17,7 +17,9 @@ const App = () => {
                 <Switch location={location} key={location.pathname}>
                     <Route path="/linkedin" component={() => {
                         window.location.replace("https://www.linkedin.com/in/tomasvalkendorff/");
-                        return null;
+                    }} />
+                    <Route path="/github" component={() => {
+                        window.location.replace("https://github.com/Tooppa");
                     }} />
                     <Route path="/about">
                         <About />
