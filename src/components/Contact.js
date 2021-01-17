@@ -20,7 +20,12 @@ const Contact = () => {
                 <Jumbotron className="bg-info">
                     <Row className="justify-content-center">
                         <Col>
-                            <h4>Welcome to my page</h4>
+                            <h4>Information</h4>
+                            <p>
+                                Name: Tomas Alexander Valkendorff. <br/>
+                                Location: Espoo, Finland. <br/>
+                                Email: placeholder. <br/>
+                            </p>
                         </Col>
                         <Col xs="auto">
                             <Link to="/linkedin" className='text-light'>
