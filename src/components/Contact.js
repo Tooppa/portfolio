@@ -67,7 +67,6 @@ const Contact = () => {
                             </motion.div>
                         </Col>
                     </Row>
-
                 </Jumbotron>
             </Container>
         </motion.div>
