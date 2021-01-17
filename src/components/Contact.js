@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import { Jumbotron, Container, Image } from 'react-bootstrap'
+import { Link } from "react-router-dom"
+import { Jumbotron, Container, Image, Col, Row } from 'react-bootstrap'
 import { dropDown } from '../animations/pageTransition'
 
 const Contact = () => {
@@ -17,14 +18,23 @@ const Contact = () => {
             </div>
             <Container>
                 <Jumbotron className="bg-info">
-                    <h4>linkedin</h4>
-                    <Image
-                        width={125}
-                        height={125}
-                        src="../img/linkedin.png"
-                        alt="Generic placeholder"
-                        className="logo"
-                    />
+                    <Row className="justify-content-center">
+                        <Col>
+                            <h4>Welcome to my page</h4>
+                        </Col>
+                        <Col xs="auto">
+                            <Link to="/linkedin" className='text-light'>
+                                <Image
+                                    width={125}
+                                    height={125}
+                                    src="../img/linkedin.png"
+                                    alt="Generic placeholder"
+                                    className="logo"
+                                />
+                            </Link>
+                        </Col>
+                    </Row>
+
                 </Jumbotron>
             </Container>
         </motion.div>

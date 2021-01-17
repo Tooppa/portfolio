@@ -15,6 +15,10 @@ const App = () => {
             <Menu />
             <AnimatePresence exitBeforeEnter>
                 <Switch location={location} key={location.pathname}>
+                    <Route path="/linkedin" component={() => {
+                        window.location.replace("https://www.linkedin.com/in/tomasvalkendorff/");
+                        return null;
+                    }} />
                     <Route path="/about">
                         <About />
                     </Route>
