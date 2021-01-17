@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
+import { navigation } from '../animations/navbar'
 import { Jumbotron, Container, Image, Col, Row } from 'react-bootstrap'
 import { dropDown } from '../animations/pageTransition'
 
@@ -22,30 +23,48 @@ const Contact = () => {
                         <Col>
                             <h4>Information</h4>
                             <p>
-                                Name: Tomas Alexander Valkendorff. <br/>
-                                Location: Espoo, Finland. <br/>
-                                Email: placeholder. <br/>
+                                Name: Tomas Alexander Valkendorff. <br />
+                                Location: Espoo, Finland. <br />
+                                Email: placeholder. <br />
                             </p>
                         </Col>
                         <Col xs="auto">
-                            <Link to="/linkedin" className='text-light'>
-                                <Image
-                                    width={125}
-                                    height={125}
-                                    src="../img/linkedin.png"
-                                    alt="Generic placeholder"
-                                    className="logo"
-                                />
-                            </Link>
-                            <Link to="/github" className='text-light'>
-                                <Image
-                                    width={125}
-                                    height={125}
-                                    src="../img/gitHub.png"
-                                    alt="Generic placeholder"
-                                    className="logo"
-                                />
-                            </Link>
+                            <motion.div
+                                exit="exit"
+                                animate="animate"
+                                initial="initial"
+                                variants={navigation}
+                                whileHover="hover"
+                                className='links'>
+                                <Link to="/linkedin" className='text-light'>
+                                    <Image
+                                        width={125}
+                                        height={125}
+                                        src="../img/linkedin.png"
+                                        alt="Generic placeholder"
+                                        className="logo"
+                                    />
+                                </Link>
+                            </motion.div>
+                        </Col>
+                        <Col xs="auto">
+                            <motion.div
+                                exit="exit"
+                                animate="animate"
+                                initial="initial"
+                                variants={navigation}
+                                whileHover="hover"
+                                className='links'>
+                                <Link to="/github" className='text-light'>
+                                    <Image
+                                        width={125}
+                                        height={125}
+                                        src="../img/gitHub.png"
+                                        alt="Generic placeholder"
+                                        className="logo"
+                                    />
+                                </Link>
+                            </motion.div>
                         </Col>
                     </Row>
 
