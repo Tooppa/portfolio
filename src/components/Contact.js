@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import { Form, Button, Row, Col, Container } from 'react-bootstrap'
+import { Jumbotron, Container, Image } from 'react-bootstrap'
 import { dropDown } from '../animations/pageTransition'
 
 const Contact = () => {
@@ -13,39 +13,19 @@ const Contact = () => {
         >
             <div className="contact bg-secondary">
                 <h1 className="contactTitle">Contact</h1>
-                <p className='textContact'>Use this to contact me via Email.</p>
+                <p className='textContact'>Here you can find other social channels and how to contact me.</p>
             </div>
             <Container>
-                <Form>
-                    <Row>
-                        <Col>
-                            <Form.Group controlId="formBasicEmail">
-                                <Form.Label>Email address</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" />
-                                <Form.Text className="text-muted">
-                                    We'll never share your email with anyone else.
-                                </Form.Text>
-                            </Form.Group>
-                        </Col>
-                        <Col>
-                            <Form.Group controlId="formBasicName">
-                                <Form.Label>Name</Form.Label>
-                                <Form.Control type="text" placeholder="Name" />
-                            </Form.Group>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <Form.Group controlId="exampleForm.ControlTextarea1">
-                                <Form.Label>Message</Form.Label>
-                                <Form.Control as="textarea" rows="3" placeholder="Enter text"/>
-                            </Form.Group>
-                            <Button variant="primary" type="submit">
-                                Submit
-                        </Button>
-                        </Col>
-                    </Row>
-                </Form>
+                <Jumbotron className="bg-info">
+                    <h4>linkedin</h4>
+                    <Image
+                        width={125}
+                        height={125}
+                        src="../img/linkedin.png"
+                        alt="Generic placeholder"
+                        className="logo"
+                    />
+                </Jumbotron>
             </Container>
         </motion.div>
     )
