@@ -11,11 +11,11 @@ const Home = () => {
             initial="initial"
             variants={dropDown}
         >
-            <div className="projects bg-secondary">
+            <div className="headerContainer bg-secondary">
                 <Container>
                     <Row className="justify-content-center">
                         <Col xs="auto">
-                            <h1 className='welcome' >Welcome to my page</h1>
+                            <h1 className="title" >Welcome to my page</h1>
                         </Col>
                         <Col xs="auto">
                             <Image
@@ -28,7 +28,7 @@ const Home = () => {
                             />
                         </Col>
                     </Row>
-                    <p className='textHome'>
+                    <p className="text">
                         Hi, thank you for coming to my website. My name is Tomas Valkendorff
                         and i am a student at Metropolia university of applied sciences.
                 </p>

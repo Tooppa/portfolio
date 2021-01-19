@@ -13,10 +13,10 @@ const Contact = () => {
             initial="initial"
             variants={dropDown}
         >
-            <div className="contact bg-secondary">
+            <div className="headerContainer bg-secondary">
                 <Container>
-                    <h1 className="contactTitle">Contact</h1>
-                    <p className='textContact'>Here you can find other social channels and how to contact me.</p>
+                    <h1 className="title">Contact</h1>
+                    <p className="text">Here you can find other social channels and how to contact me.</p>
                 </Container>
             </div>
             <Container>

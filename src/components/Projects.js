@@ -12,10 +12,10 @@ const Projects = () => {
             initial="initial"
             variants={dropDown}
         >
-            <div className="projects bg-secondary">
+            <div className="headerContainer bg-secondary">
                 <Container>
-                    <h1 className="projectsTitle">Projects</h1>
-                    <p className='textProjects'>
+                    <h1 className="title">Projects</h1>
+                    <p className="text">
                         This page is dedicated to my own projects. Since most of
                         my work has been group projects at my university, those have been
                         left out. This website has been my largest solo project to date.

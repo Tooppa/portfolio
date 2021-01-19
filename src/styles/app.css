@@ -1,22 +1,13 @@
 /*Heder container */
-.about, .contact, .projects{
+.headerContainer{
     text-align: center;
     padding-top: 30px;
-}
-
-/*Title*/
-.aboutTitle, .contactTitle, .projectsTitle, .welcome{
-    font-size: 4em;
-}
-
-/*Header text*/
-.textAbout, .textContact, .textProjects, .textHome{
-    font-size: 2em;
-    padding-top: 70px;
+    transition: 0.1s ease-in-out;
+    margin-bottom: 130px;
 }
 
 /*Slanted effect*/
-.about:after, .contact:after, .projects:after, .slanted:after{
+.headerContainer:after{
     display: inherit;
     background: inherit;
     height: 150px;
@@ -26,22 +17,29 @@
     transform: skewY(4deg);
 }
 
+/*Title*/
+.title{
+    font-size: 4em;
+}
+
+/*Header text*/
+.text{
+    font-size: 2em;
+    padding-top: 70px;
+}
+
 /*footer*/
 .name{
     text-align: right;
     padding: 10px;
-    padding-top: 210px;
     font-size: small;
-    transition: 0.1s ease-in-out;
 }
 
 /*home*/
-.textHome, .welcome, .container, .homeimg, .slanted:after{
-    transition: 0.1s ease-in-out;
-}
 .homeimg{
     border: 2px solid;
 }
+
 /*menu*/
 .navbar{
     z-index: 1;
@@ -57,6 +55,7 @@
 .brand{
     font-size: 1.3em;
 }
+
 /*underline*/
 .underline{
     display: flex;
@@ -65,46 +64,47 @@
     position: absolute;
     width: 100%;
 }
+
 /*@media*/
+@media only screen and (max-width: 992px){
+    .title{
+        font-size: 3em;
+    }
+    .headerContainer:after{
+        height: 100px;
+    }
+    .headerContainer{
+        margin-bottom: 100px;
+    }
+}
+@media only screen and (max-width: 764px){
+    .title{
+        font-size: 2.8em;
+    }
+    .text{
+        font-size: 1.6em;
+    }
+    .headerContainer{
+        margin-bottom: 70px;
+    }
+}
 @media only screen and (max-width: 575px){
     .underline{
         display: none;
     }
-}
-@media only screen and (max-width: 992px){
-    .projectsTitle, .aboutTitle, .contactTitle, .welcome{
-        font-size: 3em;
-    }
-    .contact:after, .about:after, .slanted:after, .projects:after{
-        height: 100px;
-    }
-    .container{
-        padding-top: 100px;
-    }
-}
-@media only screen and (max-width: 764px){
-    .projectsTitle, .aboutTitle, .contactTitle, .welcome{
-        font-size: 2.8em;
-    }
-    .textProjects, .textAbout, .textContact, .textHome{
-        font-size: 1.6em;
-    }
-    .container{
-        padding-top: 60px;
+    .headerContainer{
+        margin-bottom: 50px;
     }
 }
 @media only screen and (max-width: 460px){
-    .textContact, .textAbout, .textHome, .textProjects{
+    .text{
         font-size: 0.9em;
         padding-top: 20px;
     }
-    .contactTitle, .aboutTitle, .welcome, .projectsTitle{
+    .title{
         font-size: 1.9em;
     }
-    .contact:after, .about:after, .slanted:after, .projects:after{
+    .headerContainer:after{
         height: 50px;
-    }
-    .container{
-        padding-top: 50px;
     }
 }
