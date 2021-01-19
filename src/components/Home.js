@@ -30,7 +30,7 @@ const Home = () => {
                     </Row>
                     <p className="text">
                         Hi, thank you for coming to my website. My name is Tomas Valkendorff
-                        and i am a student at Metropolia university of applied sciences.
+                        and i am a student at Metropolia University of Applied Sciences.
                 </p>
                 </Container>
             </div>
