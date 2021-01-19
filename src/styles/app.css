@@ -10,7 +10,7 @@
 .headerContainer:after{
     display: inherit;
     background: inherit;
-    height: 150px;
+    height: 8vw;
     z-index: -1;
     content: '';
     transform-origin: top left;
@@ -70,9 +70,6 @@
     .title{
         font-size: 3em;
     }
-    .headerContainer:after{
-        height: 100px;
-    }
     .headerContainer{
         margin-bottom: 100px;
     }
@@ -103,8 +100,5 @@
     }
     .title{
         font-size: 1.9em;
-    }
-    .headerContainer:after{
-        height: 50px;
     }
 }
