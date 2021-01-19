@@ -13,8 +13,10 @@ const About = () => {
             variants={dropDown}
         >
             <div className="about bg-secondary">
-                <h1 className="aboutTitle">About</h1>
-                <p className='textContact'>Here you can learn more about me and what skills i have.</p>
+                <Container>
+                    <h1 className="aboutTitle">About</h1>
+                    <p className='textContact'>Here you can learn more about me and what skills i have.</p>
+                </Container>
             </div>
             <Container>
                 <Jumbotron className="bg-info">

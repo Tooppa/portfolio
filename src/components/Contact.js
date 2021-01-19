@@ -14,8 +14,10 @@ const Contact = () => {
             variants={dropDown}
         >
             <div className="contact bg-secondary">
-                <h1 className="contactTitle">Contact</h1>
-                <p className='textContact'>Here you can find other social channels and how to contact me.</p>
+                <Container>
+                    <h1 className="contactTitle">Contact</h1>
+                    <p className='textContact'>Here you can find other social channels and how to contact me.</p>
+                </Container>
             </div>
             <Container>
                 <Jumbotron className="bg-info">

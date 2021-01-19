@@ -13,13 +13,13 @@ const Projects = () => {
             variants={dropDown}
         >
             <div className="projects bg-secondary">
-                <Container style={{padding:"0px"}}>
-                <h1 className="projectsTitle">Projects</h1>
-                <p className='textProjects'>
-                    This page is dedicated to my own projects. Since most of
-                    my work has been group projects at my university, those have been
-                    left out. This website has been my largest solo project to date.
-                </p>
+                <Container>
+                    <h1 className="projectsTitle">Projects</h1>
+                    <p className='textProjects'>
+                        This page is dedicated to my own projects. Since most of
+                        my work has been group projects at my university, those have been
+                        left out. This website has been my largest solo project to date.
+                    </p>
                 </Container>
             </div>
             <Container>
@@ -38,13 +38,13 @@ const Projects = () => {
                     </p>
                     <h5>How it works</h5>
                     <p>
-                        
+
                     </p>
                 </Jumbotron>
                 <Jumbotron className="bg-info">
                     <h4>3D Bomberman in unity</h4>
                     <p>
-                        After many unity group projects at my school we got a solo assignment to 
+                        After many unity group projects at my school we got a solo assignment to
                         copy mechanics from a old game and remake it in unity. I chose Bomberman since its a simple
                         concept that can be extended easily.
                     </p>
@@ -54,7 +54,7 @@ const Projects = () => {
                     </p>
                     <h5>How it works</h5>
                     <p>
-                        
+
                     </p>
                 </Jumbotron>
             </Container>

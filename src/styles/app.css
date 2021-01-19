@@ -1,9 +1,22 @@
-/*about */
-.about{
+/*Heder container */
+.about, .contact, .projects{
     text-align: center;
     padding-top: 30px;
 }
-.about:after{
+
+/*Title*/
+.aboutTitle, .contactTitle, .projectsTitle, .welcome{
+    font-size: 4em;
+}
+
+/*Header text*/
+.textAbout, .textContact, .textProjects, .textHome{
+    font-size: 2em;
+    padding-top: 70px;
+}
+
+/*Slanted effect*/
+.about:after, .contact:after, .projects:after, .slanted:after{
     display: inherit;
     background: inherit;
     height: 150px;
@@ -12,34 +25,7 @@
     transform-origin: top left;
     transform: skewY(4deg);
 }
-.aboutTitle{
-    font-size: 4em;
-}
-.textAbout{
-    font-size: 2em;
-    padding-top: 70px;
-}
-/*contact*/
-.contact{
-    text-align: center;
-    padding-top: 30px;
-}
-.contactTitle{
-    font-size: 4em;
-}
-.textContact{
-    font-size: 2em;
-    padding-top: 70px;
-}
-.contact:after{
-    display: inherit;
-    background: inherit;
-    height: 150px;
-    z-index: -1;
-    content: '';
-    transform-origin: top left;
-    transform: skewY(4deg);
-}
+
 /*footer*/
 .name{
     text-align: right;
@@ -48,27 +34,8 @@
     font-size: small;
     transition: 0.1s ease-in-out;
 }
+
 /*home*/
-.container{
-    padding-top: 150px;
-}
-.welcome{
-    font-size: 4em;
-}
-.textHome{
-    text-align: center;
-    font-size: 2em;
-    padding-top: 70px;
-}
-.slanted:after{
-    display: inherit;
-    background: inherit;
-    height: 150px;
-    z-index: -1;
-    content: '';
-    transform-origin: top left;
-    transform: skewY(4deg);
-}
 .textHome, .welcome, .container, .homeimg, .slanted:after{
     transition: 0.1s ease-in-out;
 }
@@ -89,27 +56,6 @@
 }
 .brand{
     font-size: 1.3em;
-}
-/*projects*/
-.projects{
-    text-align: center;
-    padding-top: 30px;
-}
-.projectsTitle{
-    font-size: 4em;
-}
-.textProjects{
-    font-size: 2em;
-    padding-top: 70px;
-}
-.projects:after{
-    display: inherit;
-    background: inherit;
-    height: 150px;
-    z-index: -1;
-    content: '';
-    transform-origin: top left;
-    transform: skewY(4deg);
 }
 /*underline*/
 .underline{
