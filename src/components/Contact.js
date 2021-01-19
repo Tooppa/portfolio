@@ -36,8 +36,7 @@ const Contact = () => {
                                 animate="animate"
                                 initial="initial"
                                 variants={navigation}
-                                whileHover="hover"
-                                className='links'>
+                                whileHover="hover">
                                 <Link to="/linkedin" className='text-light'>
                                     <Image
                                         width={125}
@@ -55,8 +54,7 @@ const Contact = () => {
                                 animate="animate"
                                 initial="initial"
                                 variants={navigation}
-                                whileHover="hover"
-                                className='links'>
+                                whileHover="hover">
                                 <Link to="/github" className='text-light'>
                                     <Image
                                         width={125}
