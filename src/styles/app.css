@@ -3,7 +3,7 @@
     text-align: center;
     padding-top: 30px;
     transition: 0.1s ease-in-out;
-    margin-bottom: 130px;
+    margin-bottom: 8vw;
 }
 
 /*Slanted effect*/
@@ -70,9 +70,6 @@
     .title{
         font-size: 3em;
     }
-    .headerContainer{
-        margin-bottom: 100px;
-    }
 }
 @media only screen and (max-width: 764px){
     .title{
@@ -81,16 +78,10 @@
     .text{
         font-size: 1.6em;
     }
-    .headerContainer{
-        margin-bottom: 70px;
-    }
 }
 @media only screen and (max-width: 575px){
     .underline{
         display: none;
-    }
-    .headerContainer{
-        margin-bottom: 50px;
     }
 }
 @media only screen and (max-width: 460px){
