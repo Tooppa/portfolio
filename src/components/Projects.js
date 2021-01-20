@@ -16,9 +16,8 @@ const Projects = () => {
                 <Container>
                     <h1 className="title">Projects</h1>
                     <p className="text">
-                        This page is dedicated to my own projects. Since most of
-                        my work has been group projects at my university, those have been
-                        left out. This website has been my largest solo project to date.
+                        This page is dedicated to my own projects. 
+                        This website has been my largest solo project to date.
                     </p>
                 </Container>
             </div>
@@ -34,11 +33,14 @@ const Projects = () => {
                     </p>
                     <h5 className="smallTitle">Technologies i used</h5>
                     <p className="otherText">
-                        React, react-router-dom, react-bootstrap, sass, framer-motion
+                        React, React-Router-Dom, React-Bootstrap, Sass, Framer-Motion
                     </p>
                     <h5 className="smallTitle">How it works</h5>
                     <p className="otherText">
-
+                        This page is made as a single page app using React and React-Router. 
+                        All styling of the page is made with React version of the popular framework.
+                        Bootstrap except animations which use Framer-Motion. Styling inside Bootstrap
+                        components are edited using sass.
                     </p>
                 </Jumbotron>
                 <Jumbotron className="bg-info">
