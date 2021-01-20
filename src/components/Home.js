@@ -14,13 +14,13 @@ const Home = () => {
             <div className="headerContainer bg-secondary">
                 <Container>
                     <Row className="justify-content-center">
-                        <Col xs="auto">
+                        <Col>
                             <h1 className="title" >Welcome to my page</h1>
                         </Col>
                         <Col xs="auto">
                             <Image
-                                width={125}
-                                height={125}
+                                width={150}
+                                height={150}
                                 src="../img/profile.png"
                                 alt="Generic placeholder"
                                 roundedCircle
