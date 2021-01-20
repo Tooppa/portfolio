@@ -33,7 +33,7 @@
 
 /*Title*/
 .title{
-    font-size: clamp(2em, 8vw, 4.5em);
+    font-size: clamp(2em, 7vw, 4.5em);
 }
 
 /*Header text*/
