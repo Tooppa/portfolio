@@ -25,7 +25,7 @@
 /*Header text*/
 .text{
     font-size: 2em;
-    padding-top: 70px;
+    padding-top: 5vw;
 }
 
 /*footer*/
@@ -87,7 +87,6 @@
 @media only screen and (max-width: 460px){
     .text{
         font-size: 0.9em;
-        padding-top: 20px;
     }
     .title{
         font-size: 1.9em;
