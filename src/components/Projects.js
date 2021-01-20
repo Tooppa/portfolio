@@ -24,36 +24,36 @@ const Projects = () => {
             </div>
             <Container>
                 <Jumbotron className="bg-info">
-                    <h4>My portfolio site</h4>
-                    <p>
+                    <h4 className="mediumTitle">My portfolio site</h4>
+                    <p className="otherText">
                         After first year at my school i started University of Helsinki
                         full stack course. Since compleating it i wanted to use my new found
                         knowledge to build a site. I had many ideas but i didnt have place to
                         showcase them. With that in mind own portfolio site seemed like
                         a perfect first project.
                     </p>
-                    <h5>Technologies i used</h5>
-                    <p>
+                    <h5 className="smallTitle">Technologies i used</h5>
+                    <p className="otherText">
                         React, react-router-dom, react-bootstrap, sass, framer-motion
                     </p>
-                    <h5>How it works</h5>
-                    <p>
+                    <h5 className="smallTitle">How it works</h5>
+                    <p className="otherText">
 
                     </p>
                 </Jumbotron>
                 <Jumbotron className="bg-info">
-                    <h4>3D Bomberman in unity</h4>
-                    <p>
+                    <h4 className="mediumTitle">3D Bomberman in unity</h4>
+                    <p className="otherText">
                         After many unity group projects at my school we got a solo assignment to
                         copy mechanics from a old game and remake it in unity. I chose Bomberman since its a simple
                         concept that can be extended easily.
                     </p>
-                    <h5>Technologies i used</h5>
-                    <p>
+                    <h5 className="smallTitle">Technologies i used</h5>
+                    <p className="otherText">
                         C# and unity.
                     </p>
-                    <h5>How it works</h5>
-                    <p>
+                    <h5 className="smallTitle">How it works</h5>
+                    <p className="otherText">
 
                     </p>
                 </Jumbotron>

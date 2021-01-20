@@ -21,50 +21,50 @@ const Contact = () => {
             </div>
             <Container>
                 <Jumbotron className="bg-info">
-                    <Row className="justify-content-center">
+                    <Row>
                         <Col>
-                            <h4>Information</h4>
-                            <p>
+                            <h4 className="mediumTitle">Information</h4>
+                            <p className="otherText">
                                 Name: Tomas Alexander Valkendorff. <br />
                                 Location: Espoo, Finland. <br />
                                 Email: placeholder. <br />
                             </p>
                         </Col>
-                        <Col xs="auto">
-                            <motion.div
-                                exit="exit"
-                                animate="animate"
-                                initial="initial"
-                                variants={navigation}
-                                whileHover="hover">
-                                <Link to="/linkedin" className='text-light'>
-                                    <Image
-                                        width={125}
-                                        height={125}
-                                        src="../img/linkedin.png"
-                                        alt="Generic placeholder"
-                                        className="logo"
-                                    />
-                                </Link>
-                            </motion.div>
-                        </Col>
-                        <Col xs="auto">
-                            <motion.div
-                                exit="exit"
-                                animate="animate"
-                                initial="initial"
-                                variants={navigation}
-                                whileHover="hover">
-                                <Link to="/github" className='text-light'>
-                                    <Image
-                                        width={125}
-                                        height={125}
-                                        src="../img/gitHub.png"
-                                        alt="Generic placeholder"
-                                        className="logo"
-                                    />
-                                </Link>
-                            </motion.div>
+                        <Col sm="auto">
+                            <Row className="justify-content-center">
+                                <motion.div
+                                    exit="exit"
+                                    animate="animate"
+                                    initial="initial"
+                                    variants={navigation}
+                                    whileHover="hover">
+                                    <Link to="/linkedin" className='text-light'>
+                                        <Image
+                                            width={125}
+                                            height={125}
+                                            src="../img/linkedin.png"
+                                            alt="Generic placeholder"
+                                            className="logo"
+                                        />
+                                    </Link>
+                                </motion.div>
+                                <motion.div
+                                    exit="exit"
+                                    animate="animate"
+                                    initial="initial"
+                                    variants={navigation}
+                                    whileHover="hover">
+                                    <Link to="/github" className='text-light'>
+                                        <Image
+                                            width={125}
+                                            height={125}
+                                            src="../img/gitHub.png"
+                                            alt="Generic placeholder"
+                                            className="logo"
+                                        />
+                                    </Link>
+                                </motion.div>
+                            </Row>
                         </Col>
                     </Row>
                 </Jumbotron>
