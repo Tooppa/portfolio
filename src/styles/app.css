@@ -47,14 +47,13 @@
     text-align: right;
     padding: 10px;
     font-size: small;
+    margin: 0;
 }
 
 /*home*/
 .homeimg{
     border: 2px solid;
 }
-
-/*home*/
 .logo{
     margin: 15px;
 }
