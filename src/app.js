@@ -11,7 +11,7 @@ import { Switch, Route, useLocation } from "react-router-dom"
 const App = () => {
     const location = useLocation()
     return (
-        <div className="app">
+        <div>
             <Menu />
             <AnimatePresence exitBeforeEnter>
                 <Switch location={location} key={location.pathname}>

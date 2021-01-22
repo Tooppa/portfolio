@@ -17,7 +17,7 @@
     text-align: center;
     padding-top: 70px;
     transition: 0.1s ease-in-out;
-    margin-bottom: 8vw;
+    margin-bottom: 10vw;
 }
 
 /*Slanted effect*/
@@ -44,6 +44,7 @@
 
 /*footer*/
 .footer{
+    margin-top: 80px;
     height: 100px;
 }
 .name{

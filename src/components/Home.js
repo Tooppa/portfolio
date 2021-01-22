@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Container, Row, Col, Image, Jumbotron } from 'react-bootstrap'
 import { dropDown } from '../animations/pageTransition'
 
 const Home = () => {
@@ -34,6 +34,11 @@ const Home = () => {
                 </p>
                 </Container>
             </div>
+            <Container>
+                <Jumbotron className="bg-info">
+                    
+                </Jumbotron>
+            </Container>
         </motion.div>
     )
 }

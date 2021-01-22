@@ -5,7 +5,7 @@ import { navigation } from '../animations/navbar'
 const Footer = () => {
     return (
         <motion.div
-            className="footer"
+            className="footer bg-secondary"
             exit="exit"
             animate="animate"
             initial="initial"
