@@ -15,7 +15,7 @@
 /*Heder container */
 .headerContainer{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 70px;
     transition: 0.1s ease-in-out;
     margin-bottom: 8vw;
 }
@@ -43,6 +43,9 @@
 }
 
 /*footer*/
+.footer{
+    height: 100px;
+}
 .name{
     text-align: right;
     padding: 10px;
@@ -52,7 +55,7 @@
 
 /*home*/
 .homeimg{
-    border: 2px solid;
+    border: 3px solid;
 }
 .logo{
     margin: 15px;

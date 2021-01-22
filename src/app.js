@@ -23,19 +23,22 @@ const App = () => {
                     }} />
                     <Route path="/about">
                         <About />
+                        <Footer />
                     </Route>
                     <Route path="/projects">
                         <Projects />
+                        <Footer />
                     </Route>
                     <Route path="/contact">
                         <Contact />
+                        <Footer />
                     </Route>
                     <Route path="/">
                         <Home />
+                        <Footer />
                     </Route>
                 </Switch>
             </AnimatePresence>
-            <Footer />
         </div>
     )
 }
