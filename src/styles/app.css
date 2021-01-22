@@ -45,13 +45,8 @@
 /*footer*/
 .footer{
     margin-top: 80px;
-    height: 100px;
-}
-.name{
-    text-align: right;
-    padding: 10px;
-    font-size: small;
-    margin: 0;
+    padding: 60px;
+    padding-bottom: 20px;
 }
 
 /*home*/
