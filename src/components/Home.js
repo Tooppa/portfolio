@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { Container, Row, Col, Image, Jumbotron } from 'react-bootstrap'
 import { dropDown } from '../animations/pageTransition'
+import { Link } from "react-router-dom"
 
 const Home = () => {
     return (
@@ -36,7 +37,32 @@ const Home = () => {
             </div>
             <Container>
                 <Jumbotron className="bg-info">
-                    
+                    <h4 className="mediumTitle">About the site</h4>
+                    <p className="otherText">
+                        This site is meant as a interactive portfolio where you can find all
+                        of my noteworthy projects and learn more about me. All of this can be found
+                        from three diffrent pages.
+                    </p>
+                    <Link to="/about" className='links'>
+                        <h5 className="smallTitle">About page</h5>
+                    </Link>
+                    <p className="otherText">
+                        Here you can find more about who i am and my skills.
+                    </p>
+                    <Link to="/projects" className='links'>
+                        <h5 className="smallTitle">Projects page</h5>
+                    </Link >
+                    <p className="otherText">
+                        If you are intrested how this website was made or want to see
+                        my other projects its all in here.
+                    </p>
+                    <Link to="/contact" className='links'>
+                        <h5 className="smallTitle">Contact page</h5>
+                    </Link>
+                    <p className="otherText">
+                        Last but not least in the contact page you can find the relevant contact information
+                        and links to my other platforms.
+                    </p>
                 </Jumbotron>
             </Container>
         </motion.div>

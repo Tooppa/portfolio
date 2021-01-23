@@ -57,6 +57,9 @@
 .logo{
     margin: 15px;
 }
+.links:hover{
+    color: #819AB1;
+}
 
 /*menu*/
 .navbar{
