@@ -7,9 +7,16 @@ import Menu from './components/Menu'
 import Footer from './components/Footer'
 import { AnimatePresence } from "framer-motion"
 import { Switch, Route, useLocation } from "react-router-dom"
+import { useEffect } from "react";
 
 const App = () => {
     const location = useLocation()
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+      }, [location]);
     return (
         <div>
             <Menu />

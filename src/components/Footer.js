@@ -14,9 +14,9 @@ const Footer = () => {
             variants={navigation}
         >
             <Container>
-                <Row className="justify-content-center">
+                <Row>
                     <Col md={true}>
-                        <h5 className="smallTitle">Site map</h5>
+                        <h5 className="smallTitle">Site links</h5>
                         <Link to="/" className="otherText">Home</Link> <br />
                         <Link to="/about" className="otherText">About</Link> <br />
                         <Link to="/projects" className="otherText">Projects</Link> <br />
