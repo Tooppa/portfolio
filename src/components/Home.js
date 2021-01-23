@@ -14,7 +14,7 @@ const Home = () => {
             <div className="headerContainer bg-secondary">
                 <Container>
                     <Row className="justify-content-center">
-                        <Col>
+                        <Col xs="auto">
                             <h1 className="title" >Welcome to my page</h1>
                         </Col>
                         <Col xs="auto">
