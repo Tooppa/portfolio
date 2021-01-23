@@ -14,15 +14,15 @@ const Footer = () => {
             variants={navigation}
         >
             <Container>
-                <Row>
-                    <Col>
+                <Row className="justify-content-center">
+                    <Col md={true}>
                         <h5 className="smallTitle">Site map</h5>
                         <Link to="/" className="otherText">Home</Link> <br />
                         <Link to="/about" className="otherText">About</Link> <br />
                         <Link to="/projects" className="otherText">Projects</Link> <br />
-                        <Link to="/contact" className="otherText">Contact</Link>
+                        <Link to="/contact" className="otherText">Contact</Link> <p />
                     </Col>
-                    <Col>
+                    <Col md={true}>
                         <h5 className="smallTitle">Info</h5>
                         <p className="otherText">
                             lorem ipsun <br />
@@ -30,7 +30,8 @@ const Footer = () => {
                             Email: placeholder. <br />
                         </p>
                     </Col>
-                    <Col>
+                    <Col md={true}>
+                        <h5 className="smallTitle">Test</h5>
                         <p className="otherText">
                             lorem ipsun <br />
                             Location: Espoo, Finland. <br />
@@ -39,7 +40,9 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-center">
-                    Copyrigth &copy; 2021 Tomas Alexander Valkendorff. All Rights Reserved
+                    <p className="otherText">
+                        Copyright &copy; 2021 Tomas Valkendorff. All Rights Reserved
+                    </p>
                 </Row>
             </Container>
         </motion.div>
