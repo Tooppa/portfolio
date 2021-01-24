@@ -31,7 +31,7 @@ const Home = () => {
                     </Row>
                     <p className="text">
                         Hi, thank you for coming to my website. My name is Tomas Valkendorff
-                        and i am a student at Metropolia University of Applied Sciences.
+                        and I am a student at Metropolia University of Applied Sciences.
                 </p>
                 </Container>
             </div>
@@ -47,7 +47,7 @@ const Home = () => {
                         <h5 className="smallTitle">About page</h5>
                     </Link>
                     <p className="otherText">
-                        Here you can find more about who i am and my skills.
+                        Here you can find more about who I am and my skills.
                     </p>
                     <Link to="/projects" className="homeLinks">
                         <h5 className="smallTitle">Projects page</h5>
