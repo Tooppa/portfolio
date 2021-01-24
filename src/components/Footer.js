@@ -23,19 +23,15 @@ const Footer = () => {
                         <Link to="/contact" className="otherText">Contact</Link> <p />
                     </Col>
                     <Col md={true}>
-                        <h5 className="smallTitle">Info</h5>
-                        <p className="otherText">
-                            lorem ipsun <br />
-                            Location: Espoo, Finland. <br />
-                            Email: placeholder. <br />
-                        </p>
+                        <h5 className="smallTitle">Social</h5>
+                        <Link to="/github" className="otherText">Github</Link> <br />
+                        <Link to="/linkedin" className="otherText">Linkedin</Link> <p />
                     </Col>
                     <Col md={true}>
-                        <h5 className="smallTitle">Test</h5>
+                        <h5 className="smallTitle">Info</h5>
                         <p className="otherText">
-                            lorem ipsun <br />
-                            Location: Espoo, Finland. <br />
-                            Email: placeholder. <br />
+                            Espoo, Finland <br />
+                            valkendorff.tomas@gmail.com <br />
                         </p>
                     </Col>
                 </Row>

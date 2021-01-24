@@ -16,7 +16,7 @@ const Contact = () => {
             <div className="headerContainer bg-secondary">
                 <Container>
                     <h1 className="title">Contact</h1>
-                    <p className="text">Here you can find other social channels and how to contact me.</p>
+                    <p className="text">Here you can find my other social channels and how to contact me.</p>
                 </Container>
             </div>
             <Container>
@@ -27,7 +27,7 @@ const Contact = () => {
                             <p className="otherText">
                                 Name: Tomas Alexander Valkendorff. <br />
                                 Location: Espoo, Finland. <br />
-                                Email: placeholder. <br />
+                                Email: valkendorff.tomas@gmail.com <br />
                             </p>
                         </Col>
                         <Col sm="auto">
