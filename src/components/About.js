@@ -35,7 +35,7 @@ const About = () => {
                     <h5 className="smallTitle">Web Development</h5>
                     <p className="otherText">
                         I have mostly used Javascript with react in the front end and Node.js and MongoDB in the backend.
-                        In the first year at Metropolia i had a one quarter dedicated for web dev which was mostly basics of HTML and Css. 
+                        In the first year at Metropolia i had a one quarter dedicated for web dev which was mostly basics of HTML and CSS. 
                         I enjoyed it so much that i joined the Full Stack Open from University of Helsinki and compleated 
                         that course with 9 course credits.
                     </p>
