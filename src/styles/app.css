@@ -11,6 +11,10 @@
     font-size: clamp(1em, 2vw, 1.4em);
 }
 
+iframe{
+    width: 100%;
+    border: none;
+}
 
 /*Heder container */
 .headerContainer{

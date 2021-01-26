@@ -98,7 +98,7 @@ const Projects = () => {
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                    <iframe title="game" src="https://itch.io/embed-upload/3260952?color=ffffff" width="980" height="640">
+                    <iframe title="game" src="https://itch.io/embed-upload/3261087?color=ffffff" width="1000" height="660">
                         <a href="https://tooppa.itch.io/bomberperson">Play BomberPerson on itch.io</a>
                     </iframe>
                 </Jumbotron>
