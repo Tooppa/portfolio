@@ -62,7 +62,7 @@ const Projects = () => {
                     <p className="otherText">
                         My version of Bomberman is made in 3D since i rarely play 2D games. It contains a tutorial lvl
                         and 4 other playable levels. Every level has a time limit and a number of enemies to blow up.
-                        There are two diffrent types of enemies red and black. Red enemy moves to the farthest wall when
+                        There are two diffrent types of enemies red and black. Red enemy moves to the farthest wall after
                         colliding, and the black tries to find a obstacle to blow up and hide from the explosion.
                     </p>
                     <h5 className="smallTitle">Gallery</h5>
@@ -98,6 +98,9 @@ const Projects = () => {
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
+                    <iframe title="game" src="https://itch.io/embed-upload/3260952?color=ffffff" width="980" height="640">
+                        <a href="https://tooppa.itch.io/bomberperson">Play BomberPerson on itch.io</a>
+                    </iframe>
                 </Jumbotron>
             </Container>
         </motion.div>
