@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { dropDown } from '../animations/pageTransition'
-import { Container, Jumbotron, Carousel, Image } from 'react-bootstrap'
+import { Container, Jumbotron, Carousel, Image, ResponsiveEmbed } from 'react-bootstrap'
 import { Link } from "react-router-dom"
 
 
@@ -98,9 +98,11 @@ const Projects = () => {
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                    <iframe title="game" src="https://itch.io/embed-upload/3261087?color=ffffff" width="1000" height="660">
-                        <a href="https://tooppa.itch.io/bomberperson">Play BomberPerson on itch.io</a>
-                    </iframe>
+                    <ResponsiveEmbed aspectRatio="16by9">
+                        <iframe title="game" src="https://itch.io/embed-upload/3261087?color=ffffff" allowfullscreen="">
+                            <a href="https://tooppa.itch.io/bomberperson">Play BomberPerson on itch.io</a>
+                        </iframe>
+                    </ResponsiveEmbed>
                 </Jumbotron>
             </Container>
         </motion.div>
