@@ -43,22 +43,22 @@ const Home = () => {
                         of my noteworthy projects and learn more about me. All of this can be found
                         from three diffrent pages.
                     </p>
-                    <Link to="/about" className="homeLinks">
-                        <h5 className="smallTitle">About page</h5>
-                    </Link>
+                    <h5 className="smallTitle">
+                        <Link to="/about" className="homeLinks">About page</Link>
+                    </h5>
                     <p className="otherText">
                         Here you can find more about who I am and my skills.
                     </p>
-                    <Link to="/projects" className="homeLinks">
-                        <h5 className="smallTitle">Projects page</h5>
-                    </Link >
+                    <h5 className="smallTitle">
+                        <Link to="/projects" className="homeLinks">Projects page</Link >
+                    </h5>
                     <p className="otherText">
                         If you are intrested how this website was made or want to see
                         my other projects its all in here.
                     </p>
-                    <Link to="/contact" className="homeLinks">
-                        <h5 className="smallTitle">Contact page</h5>
-                    </Link>
+                    <h5 className="smallTitle">
+                        <Link to="/contact" className="homeLinks">Contact page</Link>
+                    </h5>
                     <p className="otherText">
                         Last but not least in the contact page you can find the relevant contact information
                         and links to my other platforms.

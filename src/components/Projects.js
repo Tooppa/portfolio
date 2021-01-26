@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { dropDown } from '../animations/pageTransition'
 import { Container, Jumbotron, Carousel, Image } from 'react-bootstrap'
+import { Link } from "react-router-dom"
 
 
 const Projects = () => {
@@ -42,39 +43,9 @@ const Projects = () => {
                         Bootstrap except animations which use Framer-Motion. Styling inside Bootstrap
                         components are edited using sass.
                     </p>
-                    <h5 className="smallTitle">Gallery</h5>
-                    <Carousel pause="hover">
-                        <Carousel.Item>
-                            <Image
-                                className="d-block w-100"
-                                src="https://via.placeholder.com/800x520"
-                                alt="First slide"
-                            />
-                            <Carousel.Caption className="otherText">
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <Image
-                                className="d-block w-100"
-                                src="https://via.placeholder.com/800x520"
-                                alt="Third slide"
-                            />
-                            <Carousel.Caption className="otherText">
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <Image
-                                className="d-block w-100"
-                                src="https://via.placeholder.com/800x520"
-                                alt="Third slide"
-                            />
-                            <Carousel.Caption className="otherText">
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>
+                    <h5 className="smallTitle">
+                        <Link to="/github/portfolio" className="homeLinks">Link to Github</Link>
+                    </h5>
                 </Jumbotron>
                 <Jumbotron className="bg-info">
                     <h4 className="mediumTitle">3D Bomberman in unity</h4>
@@ -89,7 +60,10 @@ const Projects = () => {
                     </p>
                     <h5 className="smallTitle">How it works</h5>
                     <p className="otherText">
-
+                        My version of Bomberman is made in 3D since i rarely play 2D games. It contains a tutorial lvl
+                        and 4 other playable levels. Every level has a time limit and a number of enemies to blow up.
+                        There are two diffrent types of enemies red and black. Red enemy moves to the farthest wall when
+                        colliding, and the black tries to find a obstacle to blow up and hide from the explosion.
                     </p>
                     <h5 className="smallTitle">Gallery</h5>
                     <Carousel pause="hover">
