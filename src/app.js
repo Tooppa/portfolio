@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import { AnimatePresence } from "framer-motion"
 import { Switch, Route, useLocation } from "react-router-dom"
 import { useEffect } from "react";
+import BomberPerson from './components/BomberPerson'
 
 const App = () => {
     const location = useLocation()
@@ -33,6 +34,10 @@ const App = () => {
                     }} />
                     <Route path="/about">
                         <About />
+                        <Footer />
+                    </Route>
+                    <Route path="/projects/bomber">
+                        <BomberPerson />
                         <Footer />
                     </Route>
                     <Route path="/projects">

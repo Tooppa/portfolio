@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { dropDown } from '../animations/pageTransition'
-import { Container, Jumbotron, Carousel, Image, ResponsiveEmbed } from 'react-bootstrap'
+import { Container, Jumbotron, Carousel, Image } from 'react-bootstrap'
 import { Link } from "react-router-dom"
 
 
@@ -65,6 +65,10 @@ const Projects = () => {
                         There are two diffrent types of enemies red and black. Red enemy moves to the farthest wall after
                         colliding, and the black tries to find a obstacle to blow up and hide from the explosion.
                     </p>
+                    <h5 className="smallTitle">
+                        <Link to="/projects/bomber" className="homeLinks">To test the game click this link</Link>
+                        <p/>
+                    </h5>
                     <h5 className="smallTitle">Gallery</h5>
                     <Carousel pause="hover">
                         <Carousel.Item>
@@ -98,11 +102,6 @@ const Projects = () => {
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                    <ResponsiveEmbed aspectRatio="4by3">
-                        <iframe title="game" frameborder="0" src="https://itch.io/embed-upload/3264079?color=333333">
-                            <a href="https://tooppa.itch.io/bomberperson">Play BomberPerson on itch.io</a>
-                        </iframe>
-                    </ResponsiveEmbed>
                 </Jumbotron>
             </Container>
         </motion.div>
