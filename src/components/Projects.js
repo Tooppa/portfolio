@@ -98,8 +98,8 @@ const Projects = () => {
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                    <ResponsiveEmbed aspectRatio="16by9">
-                        <iframe title="game" src="https://itch.io/embed-upload/3261087?color=ffffff" allowfullscreen="">
+                    <ResponsiveEmbed aspectRatio="4by3">
+                        <iframe title="game" frameborder="0" src="https://itch.io/embed-upload/3264079?color=333333">
                             <a href="https://tooppa.itch.io/bomberperson">Play BomberPerson on itch.io</a>
                         </iframe>
                     </ResponsiveEmbed>
