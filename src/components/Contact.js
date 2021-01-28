@@ -64,6 +64,22 @@ const Contact = () => {
                                         />
                                     </Link>
                                 </motion.div>
+                                <motion.div
+                                    exit="exit"
+                                    animate="animate"
+                                    initial="initial"
+                                    variants={navigation}
+                                    whileHover="hover">
+                                    <Link to="/itchio" className='text-light'>
+                                        <Image
+                                            width={125}
+                                            height={125}
+                                            src="../img/itchio.png"
+                                            alt="Generic placeholder"
+                                            className="logo"
+                                        />
+                                    </Link>
+                                </motion.div>
                             </Row>
                         </Col>
                     </Row>

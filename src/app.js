@@ -26,6 +26,9 @@ const App = () => {
                     <Route path="/linkedin" component={() => {
                         window.location.replace("https://www.linkedin.com/in/tomasvalkendorff/");
                     }} />
+                    <Route path="/itchio" component={() => {
+                        window.location.replace("https://tooppa.itch.io/");
+                    }} />
                     <Route path="/github/portfolio" component={() => {
                         window.location.replace("https://github.com/Tooppa/portfolio");
                     }} />

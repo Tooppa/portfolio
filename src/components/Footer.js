@@ -25,7 +25,8 @@ const Footer = () => {
                     <Col md={true}>
                         <h5 className="smallTitle">Social</h5>
                         <Link to="/github" className="otherText">Github</Link> <br />
-                        <Link to="/linkedin" className="otherText">Linkedin</Link> <p />
+                        <Link to="/linkedin" className="otherText">Linkedin</Link> <br />
+                        <Link to="/itchio" className="otherText">Itch.io</Link> <p />
                     </Col>
                     <Col md={true}>
                         <h5 className="smallTitle">Info</h5>
