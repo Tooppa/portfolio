@@ -36,7 +36,7 @@ iframe{
     transform: skewY(4deg);
 }
 
-/*Title*/
+/*large Title*/
 .title{
     font-size: clamp(2em, 6.9vw, 4.5em);
     padding-bottom: 5vw;
@@ -45,6 +45,11 @@ iframe{
 /*Header text*/
 .text{
     font-size: clamp(1em, 3vw, 2em);
+}
+
+/*contact page*/
+.logo{
+    margin: 15px;
 }
 
 /*footer*/
@@ -58,9 +63,7 @@ iframe{
 /*home*/
 .homeimg{
     box-shadow: 0px 0px 10px gray;
-}
-.logo{
-    margin: 15px;
+    margin-bottom: clamp(20px, 3vw, 40px);
 }
 .homeLinks:hover{
     color: #819AB1;
