@@ -74,31 +74,31 @@ const Projects = () => {
                         <Carousel.Item>
                             <Image
                                 className="d-block w-100"
-                                src="https://via.placeholder.com/800x520"
+                                src="../img/bomberSlide1.jpg"
                                 alt="First slide"
                             />
                             <Carousel.Caption className="otherText">
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                Fourth level of the game with two of the better enemies.
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <Image
                                 className="d-block w-100"
-                                src="https://via.placeholder.com/800x520"
+                                src="../img/bomberSlide2.jpg"
                                 alt="Third slide"
                             />
                             <Carousel.Caption className="otherText">
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                Obstacles can drop powerups.
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <Image
                                 className="d-block w-100"
-                                src="https://via.placeholder.com/800x520"
+                                src="../img/bomberSlide3.jpg"
                                 alt="Third slide"
                             />
                             <Carousel.Caption className="otherText">
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                Player is getting acces to the enemy by clearing obstacles.
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>

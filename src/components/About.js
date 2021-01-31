@@ -68,14 +68,14 @@ const About = () => {
                 <Jumbotron className="bg-info">
                     <h4 className="mediumTitle">Personal introduction</h4>
                     <p className="otherText">
-                        Hi my name is Tomas Alexander Valkendorff and i am originally from Lappeenranta.
-                        My native tongue is finnish, but i use a lot of english everyday.<br/>
+                        Hi my name is Tomas Alexander Valkendorff and i am originally from Lappeenranta Finland.
+                        I am 22 and my native tongue is finnish, but i use a lot of english everyday.<br/>
                         When i am not coding i enjoy travelling, playing games, exercising and cooking. 
                         I mainly exercise by going to gym, but sometimes i switch it up by going bouldering, running or cycling. <br/>
                         Since we all have been staying at home for the past year i have been learning to cook.
                         My favorite things to cook are asian style noodle soups, burgers and steaks.<br/>
                         I am eagerly waiting to get the change to travel normally again since that is
-                        what i like the most. My favorite trips include, going to the Alps in Austria and Switzerland to snowboard, 
+                        what i like the most. My memorable trips include, going to the Alps in Austria and Switzerland to snowboard, 
                         visiting CERN in Switzerland with my physics class and travelling in India for a year when i was at sixth grade.
                     </p>
                 </Jumbotron>
