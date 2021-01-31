@@ -63,7 +63,7 @@ iframe{
 /*home*/
 .homeimg{
     box-shadow: 0px 0px 10px gray;
-    margin-bottom: clamp(20px, 3vw, 40px);
+    margin-bottom: clamp(20px, 6vw, 40px);
 }
 .homeLinks:hover{
     color: #819AB1;
