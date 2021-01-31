@@ -74,8 +74,8 @@ const Projects = () => {
                         <Carousel.Item>
                             <Image
                                 className="d-block w-100"
-                                src="../img/bomberSlide1.jpg"
-                                alt="First slide"
+                                src="/img/bomberSlide1.jpg"
+                                alt=""
                             />
                             <Carousel.Caption className="otherText">
                                 Fourth level of the game with two of the better enemies.
@@ -84,8 +84,8 @@ const Projects = () => {
                         <Carousel.Item>
                             <Image
                                 className="d-block w-100"
-                                src="../img/bomberSlide2.jpg"
-                                alt="Third slide"
+                                src="/img/bomberSlide2.jpg"
+                                alt=""
                             />
                             <Carousel.Caption className="otherText">
                                 Obstacles can drop powerups.
@@ -94,8 +94,8 @@ const Projects = () => {
                         <Carousel.Item>
                             <Image
                                 className="d-block w-100"
-                                src="../img/bomberSlide3.jpg"
-                                alt="Third slide"
+                                src="/img/bomberSlide3.jpg"
+                                alt=""
                             />
                             <Carousel.Caption className="otherText">
                                 Player is getting acces to the enemy by clearing obstacles.

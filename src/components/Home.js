@@ -22,10 +22,10 @@ const Home = () => {
                             <Image
                                 width={150}
                                 height={150}
-                                src="../img/profile.png"
-                                alt="Generic placeholder"
+                                src="/img/profile.png"
+                                alt=""
                                 roundedCircle
-                                className="homeimg border-primary"
+                                className="homeimg"
                             />
                         </Col>
                     </Row>

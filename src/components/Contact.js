@@ -1,9 +1,9 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
-import { navigation } from '../animations/navbar'
-import { Jumbotron, Container, Image, Col, Row } from 'react-bootstrap'
-import { dropDown } from '../animations/pageTransition'
+import { navigation } from "../animations/navbar"
+import { Jumbotron, Container, Image, Col, Row } from "react-bootstrap"
+import { dropDown } from "../animations/pageTransition"
 
 const Contact = () => {
     return (
@@ -42,8 +42,8 @@ const Contact = () => {
                                         <Image
                                             width={125}
                                             height={125}
-                                            src="../img/linkedin.png"
-                                            alt="Generic placeholder"
+                                            src="/img/linkedin.png"
+                                            alt=""
                                             className="logo"
                                         />
                                     </Link>
@@ -58,8 +58,8 @@ const Contact = () => {
                                         <Image
                                             width={125}
                                             height={125}
-                                            src="../img/gitHub.png"
-                                            alt="Generic placeholder"
+                                            src="/img/gitHub.png"
+                                            alt=""
                                             className="logo"
                                         />
                                     </Link>
@@ -74,8 +74,8 @@ const Contact = () => {
                                         <Image
                                             width={125}
                                             height={125}
-                                            src="../img/itchio.png"
-                                            alt="Generic placeholder"
+                                            src="/img/itchio.png"
+                                            alt=""
                                             className="logo"
                                         />
                                     </Link>
