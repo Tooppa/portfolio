@@ -22,7 +22,7 @@ const Home = () => {
                             <Image
                                 width={150}
                                 height={150}
-                                src="/img/profile.png"
+                                src={require("../img/profile.jpg")}
                                 alt=""
                                 roundedCircle
                                 className="homeimg"

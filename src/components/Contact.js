@@ -42,7 +42,7 @@ const Contact = () => {
                                         <Image
                                             width={125}
                                             height={125}
-                                            src="/img/linkedin.png"
+                                            src={require("../img/linkedin.png")}
                                             alt=""
                                             className="logo"
                                         />
@@ -58,7 +58,7 @@ const Contact = () => {
                                         <Image
                                             width={125}
                                             height={125}
-                                            src="/img/gitHub.png"
+                                            src={require("../img/gitHub.png")}
                                             alt=""
                                             className="logo"
                                         />
@@ -74,7 +74,7 @@ const Contact = () => {
                                         <Image
                                             width={125}
                                             height={125}
-                                            src="/img/itchio.png"
+                                            src={require("../img/itchio.png")}
                                             alt=""
                                             className="logo"
                                         />

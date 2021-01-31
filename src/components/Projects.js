@@ -74,7 +74,7 @@ const Projects = () => {
                         <Carousel.Item>
                             <Image
                                 className="d-block w-100"
-                                src="/img/bomberSlide1.jpg"
+                                src={require("../img/bomberSlide1.jpg")}
                                 alt=""
                             />
                             <Carousel.Caption className="otherText">
@@ -84,7 +84,7 @@ const Projects = () => {
                         <Carousel.Item>
                             <Image
                                 className="d-block w-100"
-                                src="/img/bomberSlide2.jpg"
+                                src={require("../img/bomberSlide2.jpg")}
                                 alt=""
                             />
                             <Carousel.Caption className="otherText">
@@ -94,7 +94,7 @@ const Projects = () => {
                         <Carousel.Item>
                             <Image
                                 className="d-block w-100"
-                                src="/img/bomberSlide3.jpg"
+                                src={require("../img/bomberSlide3.jpg")}
                                 alt=""
                             />
                             <Carousel.Caption className="otherText">
