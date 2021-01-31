@@ -54,7 +54,7 @@ const Home = () => {
                     </h5>
                     <p className="otherText">
                         If you are intrested how this website was made or want to see
-                        my other projects its all in here.
+                        my other projects it is all in here.
                     </p>
                     <h5 className="smallTitle">
                         <Link to="/contact" className="homeLinks">Contact page</Link>

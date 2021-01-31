@@ -26,11 +26,10 @@ const Projects = () => {
                 <Jumbotron className="bg-info">
                     <h4 className="mediumTitle">My portfolio site</h4>
                     <p className="otherText">
-                        After first year at my school i started University of Helsinki
-                        full stack course. Since compleating it i wanted to use my new found
-                        knowledge to build a site. I had many ideas but i didnt have place to
-                        showcase them. With that in mind own portfolio site seemed like
-                        a perfect first project.
+                        After first year at my school I started University of Helsinki
+                        full stack course. Since compleating it I wanted to use my new found
+                        knowledge to build a site. I had many ideas for projects but no place to
+                        showcase them, my own portfolio site seemed like a perfect first project.
                     </p>
                     <h5 className="smallTitle">Technologies i used</h5>
                     <p className="otherText">
@@ -54,13 +53,13 @@ const Projects = () => {
                         copy mechanics from a old game and remake it in unity. I chose Bomberman since its a simple
                         concept that can be extended easily.
                     </p>
-                    <h5 className="smallTitle">Technologies i used</h5>
+                    <h5 className="smallTitle">Technologies I used</h5>
                     <p className="otherText">
                         C# and unity.
                     </p>
                     <h5 className="smallTitle">How it works</h5>
                     <p className="otherText">
-                        My version of Bomberman is made in 3D since i rarely play 2D games. It contains a tutorial lvl
+                        My version of Bomberman is made in 3D since I rarely play 2D games. It contains a tutorial level
                         and 4 other playable levels. Every level has a time limit and a number of enemies to blow up.
                         There are two diffrent types of enemies red and black. Red enemy moves to the farthest wall after
                         colliding, and the black tries to find a obstacle to blow up and hide from the explosion.
@@ -78,7 +77,7 @@ const Projects = () => {
                                 alt=""
                             />
                             <Carousel.Caption className="otherText">
-                                Fourth level of the game with two of the better enemies.
+                                Fourth level with two of the better enemies.
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
@@ -98,7 +97,7 @@ const Projects = () => {
                                 alt=""
                             />
                             <Carousel.Caption className="otherText">
-                                Player is getting acces to the enemy by clearing obstacles.
+                                The player has to clear obstacles to reach the enemy.
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
