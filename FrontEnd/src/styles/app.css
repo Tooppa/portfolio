@@ -40,11 +40,12 @@ iframe{
 /*large Title*/
 .title{
     font-size: clamp(2em, 6.9vw, 4.5em);
-    padding-bottom: 5vw;
+    padding-bottom: 4.5vw;
 }
 
 /*Header text*/
 .text{
+    padding-top: 0.5vw;
     font-size: clamp(1em, 3vw, 2em);
 }
 
@@ -65,7 +66,7 @@ iframe{
 .homeimg{
     box-shadow: 0px 0px 5px black;
     margin-top: 1vw;
-    margin-bottom: 5vw;
+    margin-bottom: 4.5vw;
 }
 .homeLinks:hover{
     color: #819AB1;
