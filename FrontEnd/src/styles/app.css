@@ -8,6 +8,7 @@
 }
 
 .smallTitle{
+    padding-top: 1.5vw;
     font-size: clamp(1em, 2vw, 1.4em);
 }
 
@@ -63,10 +64,16 @@ iframe{
 /*home*/
 .homeimg{
     box-shadow: 0px 0px 5px black;
-    margin-bottom: clamp(20px, 6vw, 40px);
+    margin-top: 1vw;
+    margin-bottom: 5vw;
 }
 .homeLinks:hover{
     color: #819AB1;
+}
+.homeTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*menu*/
