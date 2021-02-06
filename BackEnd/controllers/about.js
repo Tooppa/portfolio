@@ -1,11 +1,10 @@
 const aboutRouter = require('express').Router()
 const jwt = require('jsonwebtoken')
-const Blog = require('../models/blogs')
+const About = require('../models/about')
 
 aboutRouter.get('/', async (request, response) => {
-    const blogs = await Blog.find({}).populate('user', { username: 1, name: 1 })
+    const blogs = await About.find({})
     response.json(blogs.map(u => u.toJSON()))
-    //response.json("about")
 })
 
 module.exports = aboutRouter
