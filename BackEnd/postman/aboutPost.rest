@@ -1,0 +1,24 @@
+POST HTTP://localhost:3001/api/about
+Content-Type: application/json
+
+{
+    "largeTitle": "String",
+    "largeText": "String",
+    "subEntry": 
+    [
+        {
+            "smallTitle": "String",
+            "smallText": "String"
+        },
+        {
+            "smallTitle": "String",
+            "smallText": "String",
+            "list": 
+            [
+                {"listItem": "String"},
+                {"listItem": "String"},
+                {"listItem": "String"}
+            ]
+        }
+    ]
+}
