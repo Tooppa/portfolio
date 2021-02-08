@@ -1,18 +1,19 @@
 const mongoose = require('mongoose')
 const { Schema } = mongoose;
 
-const aboutSchema = new Schema({
+const projectSchema = new Schema({
     entry: [{
         largeTitle: String,
         largeText: String,
         subEntry: [{
             smallTitle: String,
             smallText: String,
-            list: [{
+            link: String,
+            gallery: [{
                 listItem: String
             }]
         }]
     }]
 });
 
-module.exports = mongoose.model('About', aboutSchema)
+module.exports = mongoose.model('Projects', projectSchema)
