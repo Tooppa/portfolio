@@ -9,7 +9,8 @@ const projectSchema = new Schema({
         smallText: String,
         link: String,
         gallery: [{
-            listItem: String
+            galleryItem: String,
+            galleryText: String
         }]
     }]
 });

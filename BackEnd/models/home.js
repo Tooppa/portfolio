@@ -5,10 +5,8 @@ const homeSchema = new Schema({
     largeTitle: String,
     largeText: String,
     subEntry: [{
-        title: [{
-            text: String,
-            link: String
-        }],
+        smallTitle: String,
+        link: String,
         smallText: String
     }]
 });
